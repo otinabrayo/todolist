@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+#btn:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    color: blueviolet;
+    background-color: azure;
+}
+.deleteme{
+    margin-left: 3em;
+    border-radius: 2em;
+    padding: .1em .5em;
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+.deleteme:hover{
+    border: none;
+    transform:scale(1.2);
+}
+li{
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: .6em;
+    border-bottom-right-radius: .6em;
+    padding:.2em 0 .7em 0;
+}
+.type:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    color: blueviolet;
+    background-color: azure;
+}
+.hov:hover{
+    transform: scale(1.03);
+     transition: .5s;
+}
+.done{
+    background-color: blue;
+}
+@media(max-width:768px){
+    body{
+        text-align: left;
+        background-color: rgb(101, 221, 32);
+    }
+}
